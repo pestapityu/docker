@@ -1,0 +1,5 @@
+FROM ubuntu
+
+MAINTAINER isbe@dtu.dk
+RUN apt-get install wget -y
+RUN apt-get install wim -y
